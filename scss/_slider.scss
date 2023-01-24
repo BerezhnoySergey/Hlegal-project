@@ -1,0 +1,121 @@
+.slider__container {
+	margin: 30px 0;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	@media screen and (min-width: 768px) {
+		margin: 60px 0;
+	}
+}
+.slider_items {
+	width: calc(100% - 60px);
+	background: #f5f5fa;
+	border-radius: 12px;
+	@media screen and (min-width: 768px) {
+		width: calc(100% - 120px);
+	}
+	@media screen and (min-width: 1024px) {
+		display: flex;
+	}
+	@media screen and (min-width: 1920px) {
+		width: calc(100% - 320px);
+	}
+	@media screen and (min-width: 1930px) {
+		width: 1600px;
+	}
+}
+.slider__text-box {
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+}
+.slider__text {
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 37px;
+	background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	@media screen and (min-width: 768px) {
+		width: calc(100% - 120px);
+	}
+	@media screen and (min-width: 1024px) {
+		font-size: 38px;
+		line-height: 46px;
+		width: calc(100% - 30px);
+	}
+}
+.slider__surname-box {
+	padding-top: 30px;
+	display: flex;
+	flex-direction: column;
+	color: #b3b3ba;
+}
+.slider__surname {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 6px;
+}
+
+.slider__surname-sub {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 22px;
+}
+.slider-link {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #24a3ff;
+	text-decoration: none;
+	margin-bottom: 5px;
+	transition: all 0.3s linear;
+}
+.slider-link:hover {
+	color: #f0145a;
+}
+.btn_sider {
+	width: 16px;
+	height: 16px;
+	background: #24a3ff;
+	opacity: 0.2;
+	border-radius: 50%;
+	margin: 30px 0 0px 0;
+}
+.slider_foto-xs {
+	width: 100%;
+	@media screen and (min-width: 768px) {
+		width: fit-content;
+	}
+}
+.slider_foto-tablet {
+	width: fit-content;
+	@media screen and (min-width: 1024px) {
+		width: fit-content;
+	}
+}
+.slider_foto-netbook {
+	width: fit-content;
+	@media screen and (min-width: 1024px) {
+		display: block;
+	}
+}
+.slider__foto-l {
+	width: fit-content;
+	@media screen and (min-width: 1440px) {
+		display: block;
+		height: 344px;
+	}
+}
+.slider_foto-xl {
+	@media screen and (min-width: 1920px) {
+		display: block;
+	}
+}
+.glide__bullet:last-child {
+	margin-right: 0;
+}

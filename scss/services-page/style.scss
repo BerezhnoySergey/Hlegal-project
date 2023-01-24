@@ -1,0 +1,47 @@
+@import "./header-services";
+@import "./services-area";
+@import "./IT-card";
+@import "../publications";
+@import "./publications";
+@import "../footer";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat";
+}
+.gradient__background {
+  background: linear-gradient(
+    228.57deg,
+    #323264 11.93%,
+    #323264 57.17%,
+    #643e72 87.46%
+  );
+  border-radius: 0 0 12px 12px;
+  margin-bottom: 80px;
+  position: relative;
+}
+.gradient__background::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: calc(100% - 40px);
+  bottom: 0;
+  left: 20px;
+  box-shadow: 0 10px 0 #cacadb;
+  border-radius: 0 0 12px 12px;
+  z-index: -1;
+}
+.gradient__background::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: calc(100% - 80px);
+  bottom: -10px;
+  left: 40px;
+  box-shadow: 0 10px 0 #e7e7f2;
+  border-radius: 0 0 12px 12px;
+  z-index: -2;
+}
