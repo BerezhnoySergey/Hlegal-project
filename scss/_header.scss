@@ -315,7 +315,7 @@
 		margin-right: 0;
 		width: 1600px;
 	}
-	&__nav-item {
+	&-item {
 		display: inline-block;
 		font-weight: 700;
 		font-size: 16px;
@@ -324,20 +324,20 @@
 		border-bottom: 2px solid transparent;
 		transition: all 0.2s linear;
 	}
-	&__nav-item:hover {
+	&-item:hover {
 		border-bottom: 2px solid #ffffff;
 	}
-	&__nav-item:active {
+	&-item:active {
 		color: #f0145a;
 	}
-	&__nav-link {
+	&-link {
 		text-decoration: none;
 		color: #ffffff;
 	}
-	&__nav-list {
+	&-list {
 		margin-left: 60px;
 	}
-	&__nav-item:last-child {
+	&-item:last-child {
 		margin-right: 0;
 	}
 }

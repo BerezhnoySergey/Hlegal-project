@@ -3,44 +3,43 @@
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
-	&__head-text {
-		width: calc(100% - 60px);
-		margin: 30px 0;
-		@media screen and (min-width: 768px) {
-			width: calc(100% - 120px);
-		}
-		@media screen and (min-width: 1920px) {
-			width: calc(100% - 320px);
-		}
-		@media screen and (min-width: 1930px) {
-			width: 1600px;
-		}
+}
+.card__head-text {
+	width: calc(100% - 60px);
+	margin: 30px 0;
+	@media screen and (min-width: 768px) {
+		width: calc(100% - 120px);
 	}
-	&__head-link {
-		font-weight: 700;
-		font-size: 14px;
-		line-height: 17px;
-		letter-spacing: 1px;
-		text-transform: uppercase;
-		color: #24a3ff;
-		text-decoration: none;
-		margin-bottom: 10px;
-		transition: all 0.2s linear;
+	@media screen and (min-width: 1920px) {
+		width: calc(100% - 320px);
 	}
-	&__head-link:hover {
-		color: #f0145a;
-	}
-	&__head-sub {
-		font-weight: 700;
-		font-size: 30px;
-		line-height: 37px;
-		background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		margin-top: 10px;
+	@media screen and (min-width: 1930px) {
+		width: 1600px;
 	}
 }
-
+.card__head-link {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #24a3ff;
+	text-decoration: none;
+	margin-bottom: 10px;
+	transition: all 0.2s linear;
+}
+.card__head-link:hover {
+	color: #f0145a;
+}
+.card__head-sub {
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 37px;
+	background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-top: 10px;
+}
 .card__box-container {
 	display: flex;
 	flex-direction: column;
@@ -61,7 +60,7 @@
 	width: calc(100% - 60px);
 	margin-bottom: 30px;
 	@media screen and (min-width: 768px) {
-		width: calc(100% - 474px);
+		width: 33.333%;
 		flex-wrap: wrap;
 		margin-right: 60px;
 		margin-bottom: 60px;
@@ -70,7 +69,7 @@
 		}
 	}
 	@media screen and (min-width: 1024px) {
-		width: calc(100% - 762px);
+		width: 33.333%;
 		&:nth-child(even) {
 			margin-right: 60px;
 		}

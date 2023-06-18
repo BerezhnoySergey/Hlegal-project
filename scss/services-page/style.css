@@ -273,17 +273,16 @@
     .header__nav {
       margin-right: 0;
       width: 1600px; } }
-
-.header__nav-item {
-  display: inline-block;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  margin-right: 15px;
-  border-bottom: 2px solid transparent;
-  transition: all 0.2s linear; }
-  .header__nav-item:hover {
-    border-bottom: 2px solid #ffffff; }
+  .header__nav-item {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 15px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s linear; }
+    .header__nav-item:hover {
+      border-bottom: 2px solid #ffffff; }
 
 .header__nav-link {
   text-decoration: none;
@@ -312,7 +311,8 @@
   color: #fff;
   font-weight: 700;
   font-size: 16px;
-  line-height: 20px; }
+  line-height: 20px;
+  cursor: pointer; }
 
 @media screen and (min-width: 1024px) {
   .header__large {

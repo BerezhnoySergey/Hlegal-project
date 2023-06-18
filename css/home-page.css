@@ -366,7 +366,7 @@
 		width: 1600px;
 	}
 }
-.header__nav__nav-item {
+.header__nav-item {
 	display: inline-block;
 	font-weight: 700;
 	font-size: 16px;
@@ -375,20 +375,20 @@
 	border-bottom: 2px solid transparent;
 	transition: all 0.2s linear;
 }
-.header__nav__nav-item:hover {
+.header__nav-item:hover {
 	border-bottom: 2px solid #ffffff;
 }
-.header__nav__nav-item:active {
+.header__nav-item:active {
 	color: #f0145a;
 }
-.header__nav__nav-link {
+.header__nav-link {
 	text-decoration: none;
 	color: #ffffff;
 }
-.header__nav__nav-list {
+.header__nav-list {
 	margin-left: 60px;
 }
-.header__nav__nav-item:last-child {
+.header__nav-item:last-child {
 	margin-right: 0;
 }
 
